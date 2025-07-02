@@ -60,7 +60,7 @@ def generate_pdf(content, filename="agentic_ai_summary.pdf"):
     for line in lines:
         pdf.multi_cell(0, 10, line)
     pdf.output(filename)
-    print(f"✅ PDF report generated: {filename}")
+    print(f" PDF report generated: {filename}")
 
 # ========== MAIN EXECUTION FLOW ==========
 def main():
